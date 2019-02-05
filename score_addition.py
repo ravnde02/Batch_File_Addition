@@ -35,5 +35,5 @@ for i in new_names_final:
     print(i)
 
 # Rename the files
-#for i in names_list:
-    #os.rename(i[0], str(i[1]).replace("['", '').replace("']", ''))
+for i in names_list:
+    os.rename(i[0], str(i[1]).replace("['", '').replace("']", ''))
